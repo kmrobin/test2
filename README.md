@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--test2--kmrobin.aem.page/
+- Live: https://main--test2--kmrobin.aem.live/
 
 ## Documentation
 
@@ -31,7 +31,7 @@ npm run lint
 1. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
-1. Open the `{repo}` directory in your favorite IDE and start coding :)
+1. Open the `test2` directory in your favorite IDE and start coding :)
 
 ## Header and footer in DA Layout
 
@@ -78,7 +78,7 @@ Authors still need permission to browse assets and write to the import folder.
 ## Content Assistant structured content
 
 The Fragments tab reads org-level `editor.path` rows but uses only DA form-editor
-mappings within the current `/{org}/{repo}` site, for example:
+mappings within the current `/{org}/test2` site, for example:
 
 ```text
 editor.path | /aemxsc/refdemo-da/fragments=https://da.live/form#
