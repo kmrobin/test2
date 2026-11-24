@@ -1,0 +1,24 @@
+.hlx/*
+coverage/*
+logs/*
+node_modules/*
+
+helix-importer-ui
+.DS_Store
+*.bak
+.idea
+
+# Ensure these files are tracked
+!CLAUDE.md
+!AGENTS.md
+
+# AI tool / agent local config
+.cursor/
+.claude/*
+# Shared RefDemo replication skill is part of the repository
+!.claude/refdemo/
+.windsurf/
+.gemini/
+.codex/
+.continue/
+.aider*
